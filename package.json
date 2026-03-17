@@ -1,0 +1,18 @@
+{
+  "name": "web-crawler-indexer",
+  "version": "1.0.0",
+  "description": "Mini search engine: crawl, index, search (web UI)",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "crawl": "node crawler-cli.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "express": "^4.21.0",
+    "sql.js": "^1.12.0"
+  }
+}

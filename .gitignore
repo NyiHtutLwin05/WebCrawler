@@ -1,0 +1,4 @@
+node_modules/
+search_index.db
+indexed_data.json
+.DS_Store
